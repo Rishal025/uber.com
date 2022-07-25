@@ -1,0 +1,808 @@
+body{
+    overflow-x: hidden;
+
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main
+{
+    width: 100%;
+    height: 3500px;
+    background: white;
+
+   
+}
+/* header starts */
+.header
+{
+    width: 100%;
+    height: 62px;
+    background: black;
+    display: flex;
+    font-family: sans-serif;
+    
+    
+}
+.left-div{
+    width: 32%;
+    height: 100%;
+    background: black;
+    display: flex;
+
+}
+
+.right-div
+{
+    width: 30%;
+    height: 50%;
+    background: black;
+    margin-left: 580px;
+    display: flex;
+    flex-direction: row;
+}
+
+.head
+{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 16px;
+    cursor: pointer;
+    color: white;
+    margin: 8px;
+    padding: 6px;
+    margin-left: 7px;
+    font-size: 15px;
+    margin-top: 15px;
+
+
+}
+.head:hover
+{
+    background-color: gray;
+}
+.left-div img{
+    margin-left: 111px;
+    margin-top: 16px;
+    height: 30px;
+
+}
+.slt
+{
+    background: transparent;
+    border: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 15px;
+
+}
+.select-head
+{
+    color: black;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background: black;
+    height: 30px;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 42px;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-left:-12px;
+    font-size: 15px;
+
+   
+}
+
+
+.icon span{
+    margin-top: 4px;
+}
+
+.icon:hover
+{
+    background-color:gray;
+}
+
+.icon1{
+    display: flex;
+    flex-direction: row;
+    color:#fff;
+   
+    height: 30px;
+    align-items: center;
+    margin-top: 15px;
+    margin-right: 42px;
+    border-radius: 16px;
+    cursor: pointer;
+    margin-left:-12px;
+    
+}
+.btn
+{
+border-radius: 40px;
+align-items: center;
+height: 41px;
+width: 83px;
+font-weight: bold;
+cursor: pointer;
+}
+.btn:hover
+{
+    background: rgb(209, 194, 194);
+}
+/* header ends */
+
+/* content starts */
+
+
+.content
+{
+width: 100%;
+height: 3530px;
+background:  white;
+}
+
+.content1
+{
+    width: 100%;
+    height: 570px;
+    background-color: green;
+    padding-top: 61px;
+    padding-left: 137px;
+    background: url(uberBc.webp);
+    overflow: visible;
+    background-size: 1519px 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+}
+
+.innerbox
+{
+    width: 574px;
+    height: 516px;
+    background-color:white;
+    margin-left: 50px;
+}
+.inner-top
+{
+    width: 100%;
+    height: 25%;
+    background-color:#f6f6f6;
+    display: flex;
+}
+.inner-bottom
+{   
+    width: 100%;
+    height: 75%;
+
+    background-color:white;
+}
+.top-left
+{
+    width: 25%;
+    height: 80px;
+    background-color:#f6f6f6;
+    margin-left: 90px;
+    padding-top: 40px;
+    font-family: 'Uber Move Text', sans-serif;
+    font-weight:500;
+                                                
+
+    
+}
+.top-left img{
+    margin-left: 55px;
+}
+.top-left section{
+    margin-left: 52px;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 16px;
+    letter-spacing: normal;
+    cursor: pointer;
+    width: 30px;
+    border-bottom: 7px solid black;
+    
+    
+
+}
+.top-left section:hover{
+    color: gray;
+}
+.top-right
+{
+    width: 25%;
+    height: 80px;
+    background-color:#f6f6f6;
+    margin-left: 121px;
+    padding-top: 40px;
+    font-family: 'Uber Move Text', sans-serif;
+    font-weight:500;
+                                                
+
+}
+.top-right img{
+    margin-left: 55px;
+}
+.top-right section{
+    margin-left: 45px;
+    font-size: 14px;
+    margin-top: 14px;
+    line-height: 16px;
+    letter-spacing: normal;
+    cursor: pointer;
+   
+    
+}
+.top-right section:hover{
+    color: gray;
+    
+}
+hr{
+    position: relative;
+        top: 20px;
+        background:rgb(255, 255, 255);
+}
+.para1
+{
+    font-family:'Uber Move Text', sans-serif;
+    font-size: 52px;
+    line-height: 64px;
+    letter-spacing:-1px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+input
+{
+width: 470px;
+padding: 10px;
+margin: 0;
+border-radius: 0;
+margin-left: 46px;
+font-size: medium;
+border: none;
+background-color: #f6f6f6;
+margin-top: 10px;
+height: 56px;
+}
+.form1
+{
+    margin-top: 30px;
+}
+.form2
+{
+    margin-top: 30px;
+}
+.btn1{
+    width: 144px;
+    height: 46px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Uber Move Text', sans-serif;
+    border-radius: 10px;
+    margin-left: 47px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 43px;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: rgb(34, 32, 32);
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.btn2
+{
+    width: 144px;
+    height: 46px;
+    border: none;
+    background-color: #eeee;
+    color: black;
+    font-family: 'Uber Move Text', sans-serif;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 43px;
+    cursor: pointer;
+
+
+}
+.btn2:hover{
+    background-color:rgba(221, 214, 214, 0.933) ;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.content2
+{
+   width: 100%;
+   height: 300px ;
+   background-image: url(bc.jpg.png);
+   background-size: 100% 100%;
+}
+.para2
+{
+    font-family:'Uber Move Text', sans-serif;
+    font-size: 36px;
+    line-height: 170px;
+    letter-spacing:-1px;
+    font-weight: 500;
+    margin-left: 185px; 
+}
+.para3
+{
+    font-family:'Uber Move Text', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing:normal;
+    font-weight: 200;
+    margin-left: 185px; 
+    margin-top:-46px;
+}
+.btn3
+{
+    width: 112px;
+    height: 46px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: 'Uber Move Text', sans-serif;
+    border-radius: 10px;
+    margin-left: 185px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 43px;
+    cursor: pointer;
+}
+.btn3:hover
+{
+    background-color:rgb(34, 32, 32); ;
+}
+.content3
+{
+    width: 100%;
+    height: 637px;
+    background-color: #fff;
+}
+.content3 img{
+    width: 1160px;
+    height: 430px;
+    margin-left: 190px;
+    margin-top: 145px;
+}
+.content4
+{
+    width: 100%;
+    height: 680px;
+    background-color: white;
+    padding-top: 65px;
+    
+}
+.inner-con4
+{
+    width: 1152px;
+    height: 619px;
+    margin-left: 181px;
+}
+.con4-top
+{
+    width: 100%;
+    height: 70px;
+    background-color:white;
+
+}
+.con4-para1
+{
+    font-family:'Uber Move Text', sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    color: #333333;
+    font-weight: 500;
+}
+.con4-left
+{
+    width: 50%;
+    height: 88%;
+    float: left;
+}
+.con4-right
+{
+    width: 50%;
+    height: 88%;
+    float: left;
+}
+.con4-left img
+{
+    width: 100%;
+    
+}
+.con4-right img{
+    width: 100%;
+    height: 384px;
+}
+.con4-left-para1
+{
+  font-family:   'Uber Move Text', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #333333;
+  margin-top: 20px;
+ 
+}
+.con4-left-para2
+{
+    font-family:'Uber Move Text', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 20px;
+}
+.con4-right-para1
+{
+  font-family:   'Uber Move Text', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #333333;
+  margin-top: 20px;
+}
+.con4-right-para2
+{
+    font-family:'Uber Move Text', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 20px;
+}
+.p1
+{
+  margin-top: 49px;
+  display: flex;
+  font-family:'Uber Move Text', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.p1p
+{
+    margin-left: 25px;
+    cursor: pointer;
+}
+.p3
+{
+    margin-top: 50px;
+    margin-left: 0;
+    font-family:'Uber Move Text', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: 100;
+    cursor: pointer;
+}
+.content5
+{
+    width: 100%;
+    height: 355px;
+    background-color: white;
+    padding-top: 57px;
+}
+.con5-inner
+{
+    width: 1150px;
+    height: 300px;
+    background-color: white;
+    margin-left: 185px;
+    display: flex;
+}
+.con5-inner img
+{
+    height: 211px;
+    width: 385px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.content6
+{
+    width: 100%;
+    height: 350px;
+    background-color:#f6f6f6;
+    padding-top: 70px;
+
+}
+.content6 p
+{
+    font-family:'Uber Move Text', sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    margin-left: 212px;
+    font-weight: 500;
+    color: #333333
+    
+}
+.content6-left
+{
+    width: 556px;
+    height: 197px;
+    background-color: white;
+    float: left;
+    margin-left: 182px;
+    margin-top: 45px;
+    display: flex;
+}
+.content6-right
+{
+    width: 556px;
+    height: 197px;
+    background-color: white;
+    float: left;
+    margin-left: 36px;
+    margin-top: 45px;
+    display: flex;
+
+}
+.con6-img1
+{
+     width: 147px;
+     height: 147px;
+     margin-left:22px;
+     margin-top: 22px;
+}
+
+
+.con6-img2
+{
+    width: 377px;
+    height: 45px;
+    margin-top: 73px;
+    cursor: pointer;
+}
+.con6-img3
+{
+     width: 147px;
+     height: 147px;
+     margin-left:22px;
+     margin-top: 22px;
+}
+
+
+.con6-img4
+{
+    width: 377px;
+    height: 50px;
+    margin-top: 73px;
+    cursor: pointer;
+}
+
+
+.content7
+{
+    width: 100%;
+    height: 364px;
+    background-color: white;
+
+}
+.con7-left
+{
+    width: 40%;
+    height: 200px;
+    background-color: white;
+    float: left;
+    margin-left:135px;
+    margin-top: 80px;
+    display: flex;
+    cursor: pointer;
+ 
+}
+.con7-right
+{
+    width: 40%;
+    height: 200px;
+    background-color:white;
+    float: left;
+    margin-left: 30px;
+    margin-top: 80px;
+    display: flex;
+    cursor: pointer;
+ 
+}
+
+.con7-left p{
+    font-family:'Uber Move Text', sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    margin-left:47px;
+    margin-top: 75px;
+    font-weight: 500;
+    color: black
+}
+.con7-left p:hover{
+   color: gray
+}
+.con7-right p{
+    font-family:'Uber Move Text', sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+    margin-left:47px;
+    margin-top: 75px;
+    font-weight: 500;
+    color: black
+}
+.con7-right p:hover
+{
+    color: gray;
+}
+.con7-left span
+{
+    margin-left: 210px;
+    margin-top: 82px;
+    cursor: pointer;
+}
+.material-symbols-outlined:hover
+{
+    transform: scale(1.1);
+    color: gray
+}
+.con7-right span
+{
+    margin-left: 210px;
+    margin-top: 82px;
+    cursor: pointer;
+}
+
+
+/* content ends */
+
+/* footer starts */
+ 
+.footer
+{
+    width: 100%;
+    height: 850px;
+    background-color: black;
+}
+.footer-top
+{
+     width: 100%;
+     height: 260px;
+     background-color:black;
+}
+.footer-top img
+{
+    margin-left: 175px;
+    margin-top: 100px;
+    width: 70px;
+    height: 40px;
+}
+.footer-top section
+{
+    margin-left:175px  ;
+    margin-top: 43px;
+    font-family:sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+.footer-bottom
+{
+    width: 100%;
+    height: 366px;
+    
+}
+.btm1
+{
+    width: 258px;
+    height: 93%;
+    color: white;
+    float: left;
+    margin-left: 180px;
+    margin-top: 14px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.btm2
+{
+    width: 258px;
+    height: 93%;
+    color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 14px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btm3
+{
+    width: 258px;
+    height: 93%;
+    color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 14px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btm4
+{
+    width: 258px;
+    height: 93%;
+    color: white;
+    float: left;
+    margin-left: 50px;
+    margin-top: 14px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    cursor: pointer;
+}
+.ul-btm
+{
+    list-style-type: none;
+}
+.footer-bottom2
+{
+    width: 100%;
+    height: 250px;
+}
+.btm2-1
+{
+   width: 40%;
+   height: 100%;
+   float: left;
+   margin-left: 150px;
+}
+.btm2-2
+{
+   width: 40%;
+   height: 100%;
+   float: left;
+}
+.btm2-1 img
+{
+    margin-left: 10px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.btm2-2 img
+{
+    margin-left: 350px;
+    margin-top: 65px;
+    width: 236px;
+    height: 61px;
+    cursor: pointer;
+}
+.hli
+{
+    font-family: 'Uber Move Text', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.copyright
+{
+    color: white;
+    margin-top: 44px;
+    margin-left: -590px;
+    color: #333333;
+}
+/* footer ends */
